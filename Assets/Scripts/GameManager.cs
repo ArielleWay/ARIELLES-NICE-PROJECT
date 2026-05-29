@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        AudioManager.instance.PlayAudio("BossBg");
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         Debug.Log(enemies);
     }
@@ -33,11 +34,14 @@ public class GameManager : MonoBehaviour
             return;
 
         winScreen.SetActive(true);
+        AudioManager.instance.PlayAudio("Win");
+
         isGameActive = false;
     }
 
     public void Restart()
     {
+        AudioManager.instance.StopAudio("BossBg");
         AudioManager.instance.PlayAudio("Start");
         SceneManager.LoadScene(2);
     }
