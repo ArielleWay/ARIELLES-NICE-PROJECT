@@ -17,6 +17,7 @@ public class SettingsHUD : MonoBehaviour
 
     private void Start()
     {
+
         audioManager = AudioManager.instance;
 
         audioManager.audioMixer.GetFloat("Master", out float masterValue);
@@ -45,5 +46,6 @@ public class SettingsHUD : MonoBehaviour
     public void SetSettingHUD(bool active)
     {
         settingHud.SetActive(active);
+        AudioManager.instance.PlayAudio("UI");
     }
 }

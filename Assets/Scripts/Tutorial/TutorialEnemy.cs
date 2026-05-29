@@ -12,5 +12,7 @@ public class TutorialEnemy : MonoBehaviour
     {
         tutorialManager.ShowTutorialWindow(tutorialDescrip, tutorialTitle);
         tutorialManager.DefeatedEnemy();
+        AudioManager.instance.StopAudio("TutorialBg");
+
     }
 }

@@ -38,10 +38,12 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
+        AudioManager.instance.PlayAudio("Start");
         SceneManager.LoadScene(2);
     }
     public void ToMainMenu()
     {
+        AudioManager.instance.PlayAudio("UI");
         SceneManager.LoadScene(0);
     }
 

@@ -31,8 +31,8 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(new Vector2(moveAction.ReadValue<float>() * speed * Time.deltaTime, 0), ForceMode2D.Impulse);
 
         if (jumpAction.IsPressed() && IsGrounded())
+                 AudioManager.instance.PlayAudio("Jump");
             rb.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
-        AudioManager.instance.PlayAudio("Jump");
     }
 
     public bool IsGrounded()

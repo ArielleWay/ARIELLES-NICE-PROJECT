@@ -37,6 +37,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
             collision.gameObject.GetComponent<PlayerManager>().IncrementLives(-damagePerCollision);
+
     }
 
     private void OnDrawGizmos()
@@ -47,6 +48,7 @@ public class Enemy : MonoBehaviour
 
     public void KillEnemy()
     {
+        AudioManager.instance.PlayAudio("Hurt");
         gameObject.SetActive(false);
     }
 }

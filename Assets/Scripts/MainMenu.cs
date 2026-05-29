@@ -7,13 +7,14 @@ public class MainMenu : MonoBehaviour
 {
     public void Start()
     {
-        AudioManager.instance.PlayAudio("BG");
+        AudioManager.instance.PlayAudio("MainMenuBg");
     }
 
     public void StartGame()
     {
+        AudioManager.instance.PlayAudio("Start");
+        AudioManager.instance.StopAudio("MainMenuBg");
         SceneManager.LoadScene(1);
-        AudioManager.instance.PlayAudio("BG");
     }
 
     public void ExitGame()

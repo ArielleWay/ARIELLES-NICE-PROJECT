@@ -29,8 +29,15 @@ public class TutorialManager : MonoBehaviour
         
     }
 
+    private void Start()
+    {
+        AudioManager.instance.PlayAudio("TutorialBg");
+
+    }
+
     public void CloseTutorialWindow()
     {
+        AudioManager.instance.PlayAudio("UI");
         tutorialPanel.SetActive(false);
         Time.timeScale = 1.0f;
         if (playerCollectibleCount > 0 && defeatedEnemyCount > 0)
@@ -42,11 +49,13 @@ public class TutorialManager : MonoBehaviour
 
     public void Restart()
     {
+        AudioManager.instance.PlayAudio("UI");
         SceneManager.LoadScene(1);
     }
 
     public void ToMainMenu()
     {
+        AudioManager.instance.PlayAudio("UI");
         SceneManager.LoadScene(0);
     }
 

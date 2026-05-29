@@ -50,9 +50,39 @@ MonoBehaviour:
   bgMixer: {fileID: -5520121115548674701, guid: 0e0fd121c183de247a6c8d2966adc181, type: 2}
   audioMixer: {fileID: 24100000, guid: 0e0fd121c183de247a6c8d2966adc181, type: 2}
   audios:
-  - audioName: BG
+  - audioName: Attack
+    volumeType: 1
+    clip: {fileID: 8300000, guid: bbd2dc9776c6d42dbbf7d22e7c280807, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Jump
+    volumeType: 1
+    clip: {fileID: 8300000, guid: 51c07e8dd2ec84c01898789dcbee3720, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Tutorial
     volumeType: 3
-    clip: {fileID: 8300000, guid: 58ce660851033dc4085b4a4a9779b276, type: 3}
+    clip: {fileID: 8300000, guid: 51c07e8dd2ec84c01898789dcbee3720, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: MainMenuBg
+    volumeType: 3
+    clip: {fileID: 8300000, guid: 6c66c02e6168d4f17bacef57389a074a, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Start
+    volumeType: 3
+    clip: {fileID: 8300000, guid: 8e967ba61bb0d4c96b37aaa392eb7bd9, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: UI
+    volumeType: 3
+    clip: {fileID: 8300000, guid: dd1fcef605bfe4dbb82b90969a7a2d12, type: 3}
     volume: 1
     loop: 0
     source: {fileID: 0}
