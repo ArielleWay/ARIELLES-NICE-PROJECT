@@ -32,7 +32,6 @@ public class TutorialManager : MonoBehaviour
     private void Start()
     {
         AudioManager.instance.PlayAudio("TutorialBg");
-        AudioManager.instance.PlayAudio("Ambiance");
 
     }
 
