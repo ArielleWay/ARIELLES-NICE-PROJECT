@@ -2282,6 +2282,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2514404197997121620, guid: 78cf1060a0d5a467a81317b44eceb721, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2514404197997121620, guid: 78cf1060a0d5a467a81317b44eceb721, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5698927360876192545}
+    - target: {fileID: 2514404197997121620, guid: 78cf1060a0d5a467a81317b44eceb721, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSettingHUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 2514404197997121620, guid: 78cf1060a0d5a467a81317b44eceb721, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SettingsHUD, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3797142775125910627, guid: 78cf1060a0d5a467a81317b44eceb721, type: 3}
       propertyPath: m_Name
       value: Settings Button
@@ -2472,6 +2488,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e36577a430db1445bb6675c678e5f614, type: 3}
+--- !u!114 &5698927360876192545 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4557577386807984839, guid: e36577a430db1445bb6675c678e5f614, type: 3}
+  m_PrefabInstance: {fileID: 5698927360876192544}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982edef35b2badc48894b32bca1458ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7359605942642545924
 PrefabInstance:
   m_ObjectHideFlags: 0
