@@ -41,13 +41,13 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
-        AudioManager.instance.StopAudio("BossBg");
         AudioManager.instance.PlayAudio("Start");
         SceneManager.LoadScene(2);
     }
     public void ToMainMenu()
     {
         AudioManager.instance.PlayAudio("UI");
+        AudioManager.instance.StopAudio("BossBg");
         SceneManager.LoadScene(0);
     }
 

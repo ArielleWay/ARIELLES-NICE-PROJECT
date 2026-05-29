@@ -56,33 +56,57 @@ MonoBehaviour:
     volume: 1
     loop: 0
     source: {fileID: 0}
-  - audioName: Jump
-    volumeType: 1
-    clip: {fileID: 8300000, guid: 51c07e8dd2ec84c01898789dcbee3720, type: 3}
-    volume: 1
-    loop: 0
-    source: {fileID: 0}
-  - audioName: Tutorial
-    volumeType: 3
-    clip: {fileID: 8300000, guid: 51c07e8dd2ec84c01898789dcbee3720, type: 3}
-    volume: 1
-    loop: 0
-    source: {fileID: 0}
   - audioName: MainMenuBg
     volumeType: 3
     clip: {fileID: 8300000, guid: 6c66c02e6168d4f17bacef57389a074a, type: 3}
     volume: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - audioName: Start
-    volumeType: 3
+    volumeType: 1
     clip: {fileID: 8300000, guid: 8e967ba61bb0d4c96b37aaa392eb7bd9, type: 3}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - audioName: UI
-    volumeType: 3
+    volumeType: 1
     clip: {fileID: 8300000, guid: dd1fcef605bfe4dbb82b90969a7a2d12, type: 3}
+    volume: 3
+    loop: 0
+    source: {fileID: 0}
+  - audioName: TutorialBg
+    volumeType: 3
+    clip: {fileID: 8300000, guid: e33dfb1dbd5f24e3c96d4a61da8e6b0a, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioName: Hurt
+    volumeType: 1
+    clip: {fileID: 8300000, guid: 6201636cc6b0d40c9ba341d188c12917, type: 3}
     volume: 1
     loop: 0
+    source: {fileID: 0}
+  - audioName: Jump
+    volumeType: 1
+    clip: {fileID: 8300000, guid: 05dc208f21a324c488d00cea023043fe, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: BossBg
+    volumeType: 3
+    clip: {fileID: 8300000, guid: 43f210cb4d29c47cbab3453d13919fdb, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Ambiance
+    volumeType: 2
+    clip: {fileID: 8300000, guid: 0e27be9a92ce0413eaedc2019551eecf, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioName: MainBg
+    volumeType: 3
+    clip: {fileID: 8300000, guid: bcc7852fc0e4d45b78b937ea8d98574c, type: 3}
+    volume: 1
+    loop: 1
     source: {fileID: 0}

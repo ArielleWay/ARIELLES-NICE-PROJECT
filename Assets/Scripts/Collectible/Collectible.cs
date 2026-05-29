@@ -19,6 +19,7 @@ public class Collectible : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            AudioManager.instance.PlayAudio("Collect");
             gameObject.SetActive(false);
         }
     }
